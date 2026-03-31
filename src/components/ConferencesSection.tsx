@@ -5,54 +5,54 @@ import ConferenceCard from "@/components/ConferenceCard";
 
 const conferences = [
   {
-    title: "Emirates",
-    date: "October 2026",
-    tagline:
-      "Renewable energy diplomacy: a sustainable path to a global future",
-    description:
-      "The United Arab Emirates is a land of contrasts, blending modern skyscrapers with vast deserts and stunning coastlines. From the futuristic skyline of Dubai to the cultural heart of Abu Dhabi, the country offers a unique fusion of innovation and tradition.",
-    image: "/hero-emirates.webp",
-    href: "/program/emirates",
-  },
-  {
     title: "Rome",
-    date: "February 2027",
+    date: "CWMUN at FAO in Rome",
     tagline:
-      "Building the World: Advancing Food Security, Nutrition, and Sustainability for a Better Future",
+      "Debate food security and climate action at our Rome Conference",
     description:
-      "As the cradle of Western civilization and home to millennia of history, Rome stands as an open-air museum where ancient ruins coexist with vibrant city life. From the majestic Colosseum to the Vatican, Rome offers a unique setting.",
+      "Hosted at the UN FAO in Rome; the MUN conference provides an opportunity for delegates to engage in real-world simulations on food security, climate resilience, and sustainable agriculture.",
     image: "/hero-rome.jpg",
     href: "/program/rome",
   },
   {
-    title: "Paris",
-    date: "November 2026",
+    title: "New York",
+    date: "CWMUN at UN General Assembly HQ",
     tagline:
-      "Empowering Minds, Shaping the Future: Advancing Education for a Sustainable and Thriving Future",
+      "Step into the world\u2019s most important multilateral chamber",
     description:
-      "The City of Light is renowned for its timeless elegance, artistic legacy, and influence on world affairs. Change the World MUN Paris brings students together in an atmosphere of intellectual curiosity and cultural richness.",
-    image: "/hero-paris.webp",
-    href: "/program/paris",
-  },
-  {
-    title: "New York City",
-    date: "March 2026",
-    tagline:
-      "Shaping the Future: Empowering Global Collaboration for Sustainable Growth, Innovation, and Unity",
-    description:
-      "Over 3,000 students gather at the heart of global decision-making, steps from the United Nations headquarters. New York City provides an unparalleled backdrop for diplomatic simulation and leadership development.",
+      "Hosted at the UN General Assembly Headquarters in New York, the conference gives students the opportunity to debate in committees focused on high-level multilateral policy, advocacy skills, and global networking.",
     image: "/hero-nyc.webp",
     href: "/program/nyc",
   },
   {
-    title: "Singapore",
-    date: "May 2026",
+    title: "Paris",
+    date: "CWMUN at UNESCO in Paris",
     tagline:
-      "Revolutionizing Tomorrow: Harnessing Artificial Intelligence and Robotics for a Sustainable Future",
+      "Explore culture, education and policy in UNESCO\u2019s halls",
     description:
-      "Singapore serves as the gateway between East and West, and a global leader in innovation and technology. This vibrant city-state offers students a window into Asia's dynamic future.",
+      "Hosted at the UNESCO headquarters in Paris; the MUN\u2019s themes include cultural diplomacy, education, and science-policy intersections \u2014 a unique experience inside the world\u2019s cultural governance spaces.",
+    image: "/hero-paris.webp",
+    href: "/program/paris",
+  },
+  {
+    title: "Singapore",
+    date: "CWMUN in Singapore",
+    tagline:
+      "Tackle global challenges in Singapore\u2019s innovation and diplomacy hub",
+    description:
+      "Hosted in Singapore; the conference is organised in collaboration with UNICEF and the Italian Embassy. Delegates debate on issues crucial to global perspectives: child rights, digital safety, and innovation-led development.",
     image: "/hero-singapore.webp",
     href: "/program/singapore",
+  },
+  {
+    title: "Emirates",
+    date: "CWMUN in Emirates",
+    tagline:
+      "Engage regional leaders and global peers on resilient cities and economics",
+    description:
+      "Hosted in the Emirates, the conference is held in collaboration with New York University Abu Dhabi and Harvard University. The MUN serves as a year-end forum focusing on sustainable cities, economic resilience, and humanitarian response.",
+    image: "/hero-emirates.webp",
+    href: "/program/emirates",
   },
 ];
 
@@ -80,14 +80,13 @@ export default function ConferencesSection() {
           <div className="w-px bg-white/15 self-stretch" />
           <div>
             <h2 className="text-3xl md:text-5xl lg:text-6xl font-extralight uppercase leading-tight mb-6">
-              Our Change the World MUN Conferences
+              Our MUN Conferences
             </h2>
             <p className="text-white/70 text-base leading-relaxed max-w-3xl">
-              Every year, Change the World Academy organises multiple conferences
-              around the world to shape a global new generation of leaders. From
-              the skyscrapers of New York to the deserts of the Emirates,
-              you&apos;ll find more than one occasion to shape your future
-              together with us.
+              MUN International Academy facilitates participation in Change the
+              World Model United Nations conferences held at prestigious UN
+              venues around the globe. From Rome to New York, Paris to
+              Singapore, our delegates debate where real diplomacy takes place.
             </p>
           </div>
         </div>

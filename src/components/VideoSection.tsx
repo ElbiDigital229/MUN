@@ -17,17 +17,17 @@ export default function VideoSection() {
           {/* Col 3: Content */}
           <div>
             <p className="text-primary text-sm tracking-[0.1em] uppercase font-normal mb-4">
-              Shaping the Next Generation of Leaders
+              Small Steps. Big Global Impact.
             </p>
 
             <h2 className="text-primary text-4xl md:text-5xl lg:text-6xl font-extralight leading-tight mb-6 max-w-3xl">
-              See how we&apos;re changing the world, one student at a time
+              See How We&apos;re Preparing Leaders, One Delegate At A Time
             </h2>
 
             <p className="text-gray-500 text-base leading-relaxed max-w-2xl">
-              We have helped to shape the future of thousands of students across
-              the entire world. Join us and be part of the next generation of
-              leaders.
+              Every conversation starts with a voice. Our training gives those
+              voices confidence and direction. Watch how a single conference can
+              change a life — and how your participation can change yours.
             </p>
           </div>
         </div>
@@ -80,8 +80,40 @@ export default function VideoSection() {
             href="/program"
             className="inline-block px-8 py-3.5 bg-cta text-primary text-base font-medium tracking-wide rounded hover:bg-cta-hover transition-colors"
           >
-            Explore the Change the World Program
+            Explore our Conferences
           </Link>
+        </div>
+
+        {/* Youth Diplomatic Circuit */}
+        <div className="mt-24 border-t border-primary/10 pt-16">
+          <h3 className="text-primary text-3xl md:text-4xl font-extralight leading-tight mb-6">
+            Youth Diplomatic Circuit
+          </h3>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 text-gray-500 text-base leading-relaxed">
+            <p>
+              The Youth Diplomatic Circuit serves as a bridge between ambitious
+              students and the people who shape global policy. Composed of senior
+              diplomats, policymakers, judges, and leaders, this network gives
+              our delegates and partner institutions direct access to mentorship,
+              career guidance, and real-world insight beyond textbooks.
+            </p>
+            <div className="space-y-4">
+              <p>
+                Through speaker series, mentorship sessions, briefings, and
+                panel discussions, students meet practitioners who have
+                negotiated treaties, led ministries, and advised international
+                organisations. These relationships open doors to internships,
+                collaborations, and practical advice on navigating careers in
+                diplomacy, law, and development.
+              </p>
+              <p>
+                Institutions partnering with us benefit too: we organise
+                workshops and roundtables that connect faculty and students with
+                this global community, strengthening institutional programmes
+                and creating pathways for joint projects.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

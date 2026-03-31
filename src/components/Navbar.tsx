@@ -28,18 +28,17 @@ const navItems: NavItem[] = [
     ],
   },
   {
-    label: "Change the World Program",
+    label: "Our Conferences",
     href: "/program",
     dropdown: [
-      { label: "Change the World Program", href: "/program" },
+      { label: "CWMUN Rome", href: "/program/rome" },
+      { label: "CWMUN New York", href: "/program/nyc" },
+      { label: "CWMUN Paris", href: "/program/paris" },
       { label: "CWMUN Singapore", href: "/program/singapore" },
       { label: "CWMUN Emirates", href: "/program/emirates" },
-      { label: "CWMUN Paris", href: "/program/paris" },
-      { label: "CWMUN NYC", href: "/program/nyc", badge: "Live Now" },
-      { label: "CWMUN Rome", href: "/program/rome" },
     ],
   },
-  { label: "CWA+", href: "/cwa-plus" },
+  { label: "MIA+", href: "/cwa-plus" },
   { label: "FAQ", href: "/faq" },
   { label: "World Changer | Join Us", href: "/join" },
   { label: "Volunteering", href: "/volunteering" },
@@ -77,8 +76,8 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0 mr-8">
             <Image
-              src="/logo.png"
-              alt="Change the World Academy"
+              src="/logo-mia.png"
+              alt="MUN International Academy"
               width={240}
               height={108}
               className="h-14 w-auto"

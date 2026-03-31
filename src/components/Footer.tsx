@@ -3,8 +3,8 @@ import Image from "next/image";
 
 const quickLinks = [
   { label: "About us", href: "/about" },
-  { label: "Change the World Program", href: "/program" },
-  { label: "CWA+", href: "/cwa-plus" },
+  { label: "Our Conferences", href: "/program" },
+  { label: "MIA+", href: "/cwa-plus" },
   { label: "FAQ", href: "/faq" },
   { label: "World Changer | Join Us", href: "/join" },
   { label: "Volunteering", href: "/volunteering" },
@@ -57,8 +57,8 @@ export default function Footer() {
           {/* Column 1 - Logo & Description */}
           <div>
             <Image
-              src="/logo.png"
-              alt="Change the World Academy"
+              src="/logo-mia.png"
+              alt="MUN International Academy"
               width={180}
               height={82}
               className="h-12 w-auto mb-5"

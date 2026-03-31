@@ -10,19 +10,19 @@ interface Feature {
 
 const features: Feature[] = [
   {
-    title: "Your Personal Virtual Tutor",
+    title: "Specialised Training",
     description:
-      "Creates personalized study plans, provides interactive lessons, and offers tools to monitor academic progress.",
+      "Before every international delegation, we run an intensive, conference-specific training programme. Sessions are built around actual committee agendas and country assignments, covering simulations, position paper clinics, and oral advocacy drills.",
   },
   {
-    title: "Your Academic Advisor",
+    title: "Institutional Training Programmes",
     description:
-      "Assists in university selection through aptitude tests, admission simulations, and support for cover letter analysis.",
+      "We partner with schools, colleges, and universities to deliver in-house training courses designed to prepare students for MUN, public speaking, and diplomatic engagement.",
   },
   {
-    title: "International Career Center (ICC)",
+    title: "Personalised Training Programmes",
     description:
-      "Optimizes CVs, identifies job opportunities, and prepares students for job interviews.",
+      "Our one-on-one coaching tracks are ideal for ambitious students seeking accelerated growth. Each programme is bespoke, built after an assessment of the student\u2019s strengths, gaps, and goals.",
   },
 ];
 
@@ -33,17 +33,17 @@ export default function CWAPlusSection() {
     <section className="bg-[#dce3ec]">
       <div className="max-w-4xl mx-auto px-4 md:px-8 py-24 text-center">
         <h2 className="text-primary text-4xl md:text-5xl lg:text-6xl font-extralight leading-tight mb-4">
-          Change the world academy <em className="italic">Plus</em>
+          MUN International Academy <em className="italic">Plus</em>
         </h2>
         <p className="text-primary/70 text-base mb-12">
-          Because Changing the World Should Happen Anytime and Anywhere
+          Because Global Voices Are Built Through Training and Mentorship
         </p>
 
-        {/* CWA Plus logo */}
+        {/* MIA Plus logo */}
         <div className="flex justify-center mb-12">
           <Image
             src="/logo-cwa-plus.png"
-            alt="Change the World Academy Plus"
+            alt="MUN International Academy Plus"
             width={200}
             height={96}
             className="h-24 w-auto"
@@ -51,11 +51,12 @@ export default function CWAPlusSection() {
         </div>
 
         <p className="text-primary/70 text-base leading-relaxed max-w-3xl mx-auto">
-          Change the World Academy Plus allows our students to continue their
-          life-long learning journey beyond the CWMUN conferences. The platform
-          combines the functionalities of LMS (Learning Management System) with
-          advanced artificial intelligence tools, resulting in an innovative and
-          personalized learning experience.
+          At MUN International Academy we believe great diplomats are made
+          through practice, not paperwork. Our training programmes are
+          practical, mentor-led, and designed to turn curiosity into
+          capability. Whether a student is new to MUN or a seasoned debater,
+          our curriculum gives them the skills, confidence, and professional
+          polish they need to stand out.
         </p>
       </div>
 
@@ -112,17 +113,17 @@ export default function CWAPlusSection() {
             </div>
             <h4 className="text-primary font-bold text-lg mb-1">
               {activeIndex === 0
-                ? "Study Plans"
+                ? "Conference Prep"
                 : activeIndex === 1
-                  ? "University Match"
-                  : "Career Goals"}
+                  ? "Institutional Programme"
+                  : "Personal Coaching"}
             </h4>
             <p className="text-gray-400 text-sm mb-6">
               {activeIndex === 0
-                ? "Your personalized learning path"
+                ? "Your conference training path"
                 : activeIndex === 1
-                  ? "Find your perfect university"
-                  : "Set and track your professional goals"}
+                  ? "In-house training for your institution"
+                  : "One-on-one coaching plan"}
             </p>
 
             {/* Mock UI */}

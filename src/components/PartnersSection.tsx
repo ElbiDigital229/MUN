@@ -18,12 +18,12 @@ export default function PartnersSection() {
         {/* Centered heading */}
         <div className="text-center mb-10">
           <h2 className="text-primary text-4xl md:text-5xl lg:text-6xl font-extralight leading-tight mb-4">
-            Our partners
+            Our Partners
           </h2>
           <p className="text-gray-500 text-base leading-relaxed max-w-2xl mx-auto">
-            The organisations and institutions that support the journey of
-            Change The World Academy in helping students from all over the world
-            build a more enlightened future together.
+            Our global partners who help us open doors for the youth; connecting
+            them to international platforms, mentorship, and life-changing
+            opportunities.
           </p>
         </div>
 
