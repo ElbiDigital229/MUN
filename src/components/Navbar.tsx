@@ -80,7 +80,7 @@ export default function Navbar() {
               alt="MUN International Academy"
               width={240}
               height={108}
-              className="h-14 w-auto"
+              className="h-20 w-auto"
               priority
             />
           </Link>
